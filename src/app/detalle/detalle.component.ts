@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-detalle',
@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class DetalleComponent {
 
+  @Input() charactersData: any;
+  id = 0;
+
+  ngOnInit(data: any): void{
+
+    this.charactersData = data;
+  }
+
+  seeDetails(idCharacter: number){
+
+    this.id = idCharacter;
+  }
 }

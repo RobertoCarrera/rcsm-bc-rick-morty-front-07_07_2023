@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+  nombre_programador = "Roberto Carrera Santa Maria";
+  version = 0.1;
+  fecha_desarrollo = "07/2023";
 }
