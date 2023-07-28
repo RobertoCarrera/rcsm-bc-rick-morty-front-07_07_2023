@@ -1,0 +1,41 @@
+.container_login{
+
+    height: 60vh;
+    width: 30vw;
+
+    background-color: black;
+
+    border-radius: 2em;
+
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_container{
+
+    width: 18vw;
+}
+
+.form_input{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_input input{
+
+    border-radius: 0.2em;
+}
+
+.form_button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
